@@ -1,4 +1,4 @@
-// Exp1: Write a C program that contains a string (charpointer) witha value\Hello World’.
+// Exp1: Write a C program that contains a string (charpointer) with a value\Hello World’.
 // The program should XOR each character in this string with 0 and display the result.
 #include<stdio.h>
 #include<stdlib.h>

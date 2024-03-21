@@ -1,6 +1,6 @@
 // Write a program in C to implement Caeser Cipher 
 #include<stdio.h>
-
+#include<string.h>
 #include<ctype.h>
 
 int main() {
@@ -16,8 +16,9 @@ int main() {
     scanf("%d", & key);
 
     // Visiting character by character.
+    int length = strlen(text);
 
-    for (int i = 0; text[i] != '\0'; i++) {
+    for (int i = 0; i<length; i++) {
 
         ch = text[i];
         // Check for valid characters ie, alphanumeric
